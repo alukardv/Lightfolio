@@ -250,3 +250,47 @@ footer ul{
     letter-spacing: 0.14px;
     text-decoration: none;
 }
+
+.about-me{
+    padding: 132px 0;
+}
+
+.ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    padding: 15px 10px;
+    border: solid black 1px;
+    border-radius: 18px;
+}
+
+.ui-state-active{
+    color: black;
+}
+
+.ui-widget-content{
+    background-color: #FFEBD8;
+    border: solid black 1px;
+    border-radius: 0 0 18px 18px;
+    border-top: none;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active{
+    background-color: #FFEBD8;
+    border-bottom: none;
+    border-radius: 18px 18px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
