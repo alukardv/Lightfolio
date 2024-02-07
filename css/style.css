@@ -260,6 +260,9 @@ footer ul{
     padding: 15px 10px;
     border: solid black 1px;
     border-radius: 18px;
+    display: flex;
+    order: 1;
+    justify-content: space-between;
 }
 
 .ui-state-active{
@@ -277,13 +280,35 @@ footer ul{
     background-color: #FFEBD8;
     border-bottom: none;
     border-radius: 18px 18px 0 0;
+
 }
 
+.ui-icon{
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/chevron-down.svg);
+    order: 2;
 
+}
 
+.ui-state-active .ui-icon{
+    background-image: url(../images/chevron-down.svg);
+}
 
+.ui-icon-triangle-1-e{
+    background-position: 80% 50%;
+}
 
+.ui-accordion .ui-accordion-header.ui-state-active .ui-icon-triangle-1-s{
+    background-position: 80% 50%;
+    transform: rotate(-180deg);
+    transition: transform 0.1s;
+}
 
+.ui-state-hover .ui-icon {
+    background-position: 80% 50%;
+    background-image: url(../images/chevron-down.svg);
+}
 
 
 
